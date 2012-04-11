@@ -12,8 +12,12 @@
 		"sdk": "/Users/bpellow/android/android-sdk-macosx",
 		"profiles": {
 			"DEFAULT": {
-				"keystore": "",
-				"keyalias": ""
+				"keystore": "/Users/bpellow/workspace/android/trigger.io/forgebadger/forge/okcwest.keystore",
+				"keyalias": "OKCWEST_KEY"
+			},
+			"release": {
+				"keystore": "/Users/bpellow/workspace/android/trigger.io/forgebadger/forge/okcwest.keystore",
+				"keyalias": "OKCWEST_KEY"
 			}
 		}
 	}
