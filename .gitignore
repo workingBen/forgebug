@@ -3,5 +3,6 @@
 
 forge/development/*
 forge/.template/*
+forge/release/*
 
 *.log
