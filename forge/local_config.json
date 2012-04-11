@@ -9,14 +9,14 @@
 		}
 	},
 	"android": {
-		"sdk": "/Users/bpellow/android/android-sdk-macosx",
+		"sdk": "~/android/android-sdk-macosx",
 		"profiles": {
 			"DEFAULT": {
-				"keystore": "/Users/bpellow/workspace/android/trigger.io/forgebadger/forge/okcwest.keystore",
+				"keystore": "~/workspace/forgebadger/forge/okcwest.keystore",
 				"keyalias": "OKCWEST_KEY"
 			},
 			"release": {
-				"keystore": "/Users/bpellow/workspace/android/trigger.io/forgebadger/forge/okcwest.keystore",
+				"keystore": "~/workspace/forgebadger/forge/okcwest.keystore",
 				"keyalias": "OKCWEST_KEY"
 			}
 		}
