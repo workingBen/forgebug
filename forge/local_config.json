@@ -9,15 +9,19 @@
 		}
 	},
 	"android": {
-		"sdk": "~/android/android-sdk-macosx",
+		"sdk": "../../../android/android-sdk-macosx",
 		"profiles": {
 			"DEFAULT": {
-				"keystore": "~/workspace/forgebadger/forge/okcwest.keystore",
-				"keyalias": "OKCWEST_KEY"
+				"keystore": "./okcwest.keystore",
+				"keyalias": "OKCWEST_KEY",
+        "storepass": "cupidrocks",
+        "keypass": "cupidrocks"
 			},
 			"release": {
-				"keystore": "~/workspace/forgebadger/forge/okcwest.keystore",
-				"keyalias": "OKCWEST_KEY"
+				"keystore": "./okcwest.keystore",
+				"keyalias": "OKCWEST_KEY",
+        "storepass": "cupidrocks",
+        "keypass": "cupidrocks"
 			}
 		}
 	}
