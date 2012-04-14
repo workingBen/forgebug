@@ -20,7 +20,7 @@ namespace :hb do
 
   desc 'Emulate the hb client'
   task :start_emulator do
-    fresh_start = system "sh start_emulator.sh"
+    fresh_start = system "sh lib/scripts/start_emulator.sh"
     puts fresh_start ? "Starting android emulator" : "Android emulator already running."
   end
   
