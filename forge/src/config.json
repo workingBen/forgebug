@@ -40,5 +40,11 @@
 	}, 
 	"name": "HoneyBadger", 
 	"platform_version": "v1.3", 
-	"version": "0.1"
+	"version": "0.1",
+  "partners": {
+    "parse": {
+      "applicationId": "MYvyz33l7Zy9h5NU1tp5oL3RBskxuzW8NaMZfMIi",
+      "clientKey": "7ACmRiFLWIUHU5k22zQT7njqN3qOpA1jCkZ3b5ay"
+    }
+  }
 }
