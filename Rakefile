@@ -6,25 +6,25 @@ namespace :hb do
   desc 'Package: build, package, run'
   task :package => [:build, :forge_package, :run_device]
 
-  desc 'Build the hb client'
+  # desc 'Build the hb client'
   task :build do
     `cd forge; forge build`
   end
 
-  desc 'Package the hb client'
+  # desc 'Package the hb client'
   task :forge_package do
     puts "KILLING old releases"
     `rm ./forge/release/android/*.apk`
     `cd forge; forge package android; open ./release/android`
   end
 
-  desc 'Emulate the hb client'
+  # desc 'Emulate the hb client'
   task :start_emulator do
     fresh_start = system "sh lib/scripts/start_emulator.sh"
     puts fresh_start ? "Starting android emulator" : "Android emulator already running."
   end
   
-  desc 'Run the hb client'
+  # desc 'Run the hb client'
   task :run_emulator do
     if fresh_start
       puts "Just fired up Emulator, waiting for it to start."
@@ -39,7 +39,7 @@ namespace :hb do
     exec 'cd forge; forge run android &'
   end
 
-  desc 'Install and run the HB client on a device'
+  # desc 'Install and run the HB client on a device'
   task :run_device do
     device_attached = system "adb devices | grep device$"
     if device_attached
